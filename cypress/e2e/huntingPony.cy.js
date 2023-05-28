@@ -14,7 +14,7 @@ it('Проверка HuntingPony', function () {
     cy.get('#client_surname').type('Давыдов');
     cy.get('#client_contact_name').type('Алексей');
     cy.get('#client_phone').type('89250000000');
-    cy.get('#client_email').type('0007282@bk.ru');
+    cy.get('#client_email').type('0007282@mail.ru');
     cy.get('#shipping_address_street').type('Пионерская');
     cy.get('#shipping_address_house').type('30');
     cy.get('#checkout_buyer_fields > .co-input--required > .co-input-select > .co-input-field').select('Мальчик');
